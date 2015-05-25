@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+<div class="page-content">
+    <div class="post-heading">
+        {{ page.title }}
+    </div>
+    <div class="post-meta">
+        <span>
+            posted:
+            <a href="{{ page.url }}">{{ page.date | date:"%b %-d, %Y" }}</a>
+        </span>
+        <span><i class="fa fa-ellipsis-v"></i></span>
+        <span>
+            categories:
+            {% for cat in page.categories %}
+            <a href="/categories.html#{{ cat }}-ref">{{ cat }}</a>
+            {% endfor %}
+        </span>
+        <span><i class="fa fa-ellipsis-v"></i></span>
+        <span>
+            tags:
+            {% for tag in page.tags %}
+            <a href="/tags.html#{{ tag }}-ref">{{ tag }}</a>
+            {% endfor %}
+        <span>
+    </div>
+    <div class="post-entry">
+        {{ content }}
+    </div>
+</div>
+<div class="post-blank post-pager">
+    <ul class="pager">
+        {% if page.previous %}
+        <li class="previous"><a href="{{ page.previous.url }}">&larr; previous</a></li>
+        {% endif %}
+        {% if page.next %}
+        <li class="next"><a href="{{ page.next.url }}">next &rarr;</a></li>
+        {% endif %}
+    </ul>
+</div>
+{% include disqus_comments.md %}
+

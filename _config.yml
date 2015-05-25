@@ -1,0 +1,15 @@
+title: sirkblog
+email: csirkin@outlook.com
+description: >
+  Craig Sirkin's blog
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://csirkin.github.io" # the base hostname & protocol for your site
+twitter_username: csirkin
+github_username:  csirkin
+linkedin_username:  craigsirkin
+root: /
+permalink: /:year-:month/:title/
+paginate: 5
+
+# Build settings
+markdown: kramdown
