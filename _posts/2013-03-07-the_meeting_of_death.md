@@ -2,7 +2,7 @@
 layout: post
 title:  "Not 'death by meeting', more like 'the meeting of death'"
 date:   2013-03-07 12:00:00
-categories: Juniper Technical_Tips
+categories: business
 ---
 [The other day's Online Dilbert strip]("http://dilbert.com/strips/comic/2013-03-05/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+DilbertDailyStrip+%28Dilbert+Daily+Strip%29") provides me the perfect opportunity to write a blog post that I've been thinking about the last few days.
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "A Reminder to be Vigilant About Cuts and Pastes"
 date:   2014-09-10 12:00:00
-categories: Juniper Technical_Tips
+categories: juniper technical_tips
 ---
 I was pasting a big section of a router configuration today and even though I wasn't getting any errors, I decided it would be worth comparing what the router was going to load to what I had pasted in. This is just a tiny part of the 700+ lines I uploaded, but it shows the problem.
 

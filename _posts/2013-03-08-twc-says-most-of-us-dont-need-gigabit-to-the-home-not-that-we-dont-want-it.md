@@ -2,7 +2,7 @@
 layout: post
 title:  "TWC says most of us don't need gigabit to the home, not that we don't want it"
 date:   2013-03-08	 12:00:00
-categories: Juniper Technical_Tips
+categories: reading_the_news
 ---
 Wired gives this the headline ["You Don’t Want Super-High-Speed Internet, Says Time Warner Cable"](http://www.wired.com/wiredenterprise/2013/02/time-warner-cable/), but I think I've given it a more accurate title.
 

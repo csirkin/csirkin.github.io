@@ -2,7 +2,7 @@
 layout: post
 title:  "The Power of Routines"
 date:   2013-01-03 12:00:00
-categories: Juniper Technical_Tips
+categories: uncategorized
 ---
 Happy New Year.
 

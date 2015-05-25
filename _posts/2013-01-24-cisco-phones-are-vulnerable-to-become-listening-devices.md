@@ -2,7 +2,7 @@
 layout: post
 title:  "Cisco Phones are Vulnerable to Become Listening Devices"
 date:   2013-01-24 12:00:00
-categories: Juniper Technical_Tips
+categories: reading_the_news
 ---
 There's really two things that I like about [this article](http://arstechnica.com/security/2013/01/hack-turns-the-cisco-phone-on-your-desk-into-a-remote-bugging-device/" title="this" target="_blank"). The first is the title of that talk, "Just because you are paranoid doesn't mean your phone isn't listening to everything you say", and the second is that this is news.
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "How-to Downgrade Junos on Juniper's QFabric"
 date:   2014-08-18 12:00:00
-categories: Juniper Technical_Tips
+categories: juniper technical_tips
 ---
 Have you searched for how to downgrade a QFabric installation? No? Go ahead and [try it](https://www.google.com/search?btnG=1&pws=0&q=downgrade+qfabric" target="_blank). The first listing looks promising, but it's for the bootloader, not the OS. The 2nd listing has a interesting item in the description on Google - "Note: Downgrading software on a QFabric system is not supported."
 
