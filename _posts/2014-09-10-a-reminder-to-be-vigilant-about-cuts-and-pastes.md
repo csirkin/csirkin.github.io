@@ -8,22 +8,24 @@ I was pasting a big section of a router configuration today and even though I wa
 
 I pasted:
 
-[code]
-                from {
-                    source-prefix-list {
-                        bgp-neighbors
-                        bgp-neighbors-logical-systems
-                    }
-[/code]
+{% highlight perl %}
+from {
+    source-prefix-list {
+         bgp-neighbors
+         bgp-neighbors-logical-systems
+    }
+}
+{% endhighlight %}
 
 The router got:
 
-[code]
-                from {
-                    source-prefix-list {
-                        bgp-neighbors;
-                    }
-[/code]
+{% highlight perl %}
+from {
+    source-prefix-list {
+         bgp-neighbors;
+    }
+}
+{% endhighlight %}
 
 This same situation was repeated 20 or 30 more times in the config. Do you see the problem with my config?*
 
