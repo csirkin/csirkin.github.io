@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "No Virtual SRX Clusters on VMWare Fusion?"
-date:   2015-06-01 12:00:00
+date:   2015-05-28 10:30:00
 categories: Juniper Technical_Tips
 ---
 Recently I was working with a customer and looking to test some SRX Cluster configurations that I had written for them before our lab gear became available. No problem I figured, I can easily mock this up with Firefly Perimeter (aka vSRX) on my laptop. However when I tried I couldn't get the links between the members to come up and the boxes never clustered.
