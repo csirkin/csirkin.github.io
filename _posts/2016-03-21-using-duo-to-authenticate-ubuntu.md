@@ -2,7 +2,7 @@
 layout: post
 title:  "Using Duo to Authenticate Ubuntu"
 date:   2016-03-21 00:00:00
-categories: Ubuntu Duo
+categories: ubuntu duo
 ---
 For the past few years I've been using Authy to provide 2 Factor Authentication for my Ubuntu system, but somebody suggested that I take a look at Duo as an alternative. I originally started using Authy because I like the Authy app more than Google Authenticator and because it also offered a few other things it could authenticate. Duo seems to provide more options, including Radius and it offers more for free and I like the push option with a token so that when I try to log in to something instead of going to the app to get a code to type in it pops up a notification asking me whether to approve the log in or not.
 

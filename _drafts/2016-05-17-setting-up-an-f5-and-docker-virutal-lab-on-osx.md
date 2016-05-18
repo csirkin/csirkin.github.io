@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Setting up an f5 virtual lab on OSX with Docker and Ubuntu"
-categories: f5 Technical_Tips Lab
+categories: f5 technical_tips Lab
 ---
 
 1. Purchase a lab license for f5's virtual edition
