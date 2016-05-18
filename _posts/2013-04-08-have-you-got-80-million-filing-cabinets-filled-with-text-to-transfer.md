@@ -2,7 +2,7 @@
 layout: post
 title:  "Have You Got 80 Million Filing Cabinets Filled With Text to Transfer?"
 date:   2013-04-08 12:00:00
-categories: Juniper Technical_Tips
+categories: juniper technical_tips
 ---
 Last week, as I worked with a customer to test 40 and 100 Gigabit per second Ethernet connections for their new Data Center core, I started remembering some other deployments of new interfaces I've gotten to work with. I remember when we were turning up some of the first 1 Gigabit per second Ethernet connections at Level 3 Communications back in 1999 and 2000 when it required burning an entire router line card for just one port (What do you mean autonegotation with the same vendor fails but it succeeds when connected to another vendor's gear?). Later we turned up some of the first OC-192 router interfaces, again, only one port per slot. At the time one of my colleagues talked about how even though 10 Gig Ethernet and then 100 Gig Ethernet were the obvious headlines, there was a value to using 40 Gbps Ethernet as an achievable intermediate stop between the two. I would imagine he didn't know how close to the terminal that stop would come until 40 and 100 were released as one standard.
 
