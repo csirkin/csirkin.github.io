@@ -1,7 +1,8 @@
 ---
 layout: post
+date: 2016-05-17 22:48:00
 title: "Setting up an f5 virtual lab on OSX with Docker and Ubuntu"
-categories: f5 technical_tips Lab
+categories: f5 technical_tips lab docker ubuntu
 ---
 
 1. Purchase a lab license for f5's virtual edition
@@ -16,3 +17,6 @@ categories: f5 technical_tips Lab
 You now have a relatively lightweight virtual lab with 3 webservers and an f5 virtual appliance. Because the webservers return their IP addresses you can use them to play around with the settings on the f5 for configuring virtual servers and load balancing pools. If you need more functionality from the webservers you can [create your own containers](https://docs.docker.com/linux/step_four/) in place of mine. [Alpine Linux](http://www.alpinelinux.org/) is a great place to start because of its full feature set and small footprint.
 
 Once I can get my hands on it I'm looking forward to modifying this lab with Juniper's containerized SRX.
+
+For reference the node.js script for the webserver is:
+<script src="https://gist.github.com/csirkin/988d64d5c8102feedd26d1569bd28aae.js"></script>
