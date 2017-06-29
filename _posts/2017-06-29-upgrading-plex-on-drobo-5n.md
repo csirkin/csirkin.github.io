@@ -7,8 +7,7 @@ tags:  plex, drobo
 This is one of those things that is probably documented very well somewhere but
 I couldn't find it so I'm writing up how to do it. I don't take credit (or
   responsibility) for any of the programs mentioned here; I'm just a grateful
-  user. This process has worked a few times for me so I feel comfortable
-  recommending it.
+  user. This process has worked a few times in a row for me - most recently with version 1.7.5.4035 - so I feel comfortable recommending it.
 
 1. **Make sure that [sudo](http://www.droboports.com/app-repository/sudo/) and
 [OpenSSH](http://www.droboports.com/app-repository/openssh/) are installed from
