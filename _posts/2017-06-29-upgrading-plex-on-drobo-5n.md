@@ -22,10 +22,10 @@ Click the Download button. Use the dropdown menu to select drobo from under
 unzip in there. ```mkdir plex; cd plex; tar zxvf ../plex.tgz```
 1. **Su to root** - ```/mnt/DroboFS/Shares/DroboApps/sudo/bin/sudo su -```
 1. **Change to the Apps directory** - ```cd /mnt/DroboFS/Shares/DroboApps/```
+1. **Stop server** - ```./service stop```
 1. **Copy plex to install location** - ```cp -r */path/to*/plex .```
 1. **Ignore the update script** - If you run the update script you'll need to
 repeat the copy step.
-1. **Stop server** - ```./service stop```
 1. **Check the service status** - ```./service status``` If it says that the
 service is running then you may have to kill -9 the PID which is
   listed under /tmp/DroboApps/plex/pid.txt or just grab it from running
