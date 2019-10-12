@@ -10,7 +10,7 @@ I couldn't find it so I'm writing up how to do it. I don't take credit (or
   user. This process has worked a few times in a row for me - most recently with version 1.7.5.4035 - so I feel comfortable recommending it.
 
 1. **Make sure that [sudo](http://www.droboports.com/app-repository/sudo/) and
-[OpenSSH](http://www.droboports.com/app-repository/openssh/) are installed from
+[OpenSSH](http://www.droboports.com/app-repository/openssh/) (or Dropbear) are installed from
 [Droboports](http://www.droboports.com/).** - You'll need to ssh into your drobo
 and su to root later and these programs let you do that.
 1. **Download the update** - Go to [Plex](https://www.plex.tv/downloads/).
@@ -26,12 +26,12 @@ unzip in there. ```mkdir plex; cd plex; tar zxvf ../plex.tgz```
 1. **Copy plex to install location** - ```cp -r */path/to*/plex .```
 1. **Ignore the update script** - If you run the update script you'll need to
 repeat the copy step.
-1. **Check the service status** - ```./service status``` If it says that the
+1. **Check the service status** - ```plex/service status``` If it says that the
 service is running then you may have to kill -9 the PID which is
   listed under /tmp/DroboApps/plex/pid.txt or just grab it from running
   ```ps -ef grep plex```.
-1. **Start the server** - Once it's no longer running, ```./service start```.
-1. **Check the service status** - ```./service status```
+1. **Start the server** - Once it's no longer running, ```plex/service start```.
+1. **Check the service status** - ```plex/service status```
 1. **Check the version** - ```more /tmp/DroboApps/plex/version.txt``` If it's
 running the version that you downloaded then you made a mistake somewhere.
 Check the home directory where you unzipped the tar file that the files were
