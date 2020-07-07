@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: csirkin.github.io
+Token: aac0f8c6ef06ca938c8eeea6cc87c573b23179422ecd6e26a244c4757fcb137f
